@@ -1,0 +1,14 @@
+.madre {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
+    gap: 10px;
+    height: 80vh;
+}
+
+.hijo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(145, 211, 244);
+ }
